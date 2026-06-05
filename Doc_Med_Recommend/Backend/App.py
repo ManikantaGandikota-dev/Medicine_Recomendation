@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 from fastapi.middleware.cors import CORSMiddleware
-from Dataset import symptoms, predict_specialists, specialists, SPECIALIST_TABLETS
+from .Dataset import symptoms, predict_specialists, specialists, SPECIALIST_TABLETS
 
 # 2️⃣ Initialize FastAPI
 app = FastAPI()
